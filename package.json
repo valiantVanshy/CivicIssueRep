@@ -1,0 +1,35 @@
+{
+  "name": "saksham-civic-report",
+  "version": "1.0.0",
+  "description": "SAKSHAM - SC-village amenities & Knowledge System for Holistic Assessment and Monitoring",
+  "main": "app.js",
+  "scripts": {
+    "build": "node build-config.js",
+    "start": "python -m http.server 8000",
+    "dev": "python -m http.server 8000",
+    "lint": "eslint js/**/*.js",
+    "format": "prettier --write \"**/*.{js,html,css,json,md}\""
+  },
+  "keywords": [
+    "civic",
+    "report",
+    "rural-development",
+    "village",
+    "government",
+    "supabase"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^8.50.0",
+    "prettier": "^3.0.0"
+  },
+  "dependencies": {},
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  }
+}
